@@ -7,6 +7,14 @@
                     <name>collapsed</name>
                     <value>false</value>
                 </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>enableActionsConfiguration</name>
+                    <value>false</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>hideChatterActions</name>
+                    <value>false</value>
+                </componentInstanceProperties>
                 <componentName>force:highlightsPanel</componentName>
                 <identifier>force_highlightsPanel</identifier>
             </componentInstance>
@@ -18,6 +26,18 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
+                <componentInstanceProperties>
+                    <name>relatedListComponentOverride</name>
+                    <value>NONE</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>rowsToDisplay</name>
+                    <value>10</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>showActionBar</name>
+                    <value>true</value>
+                </componentInstanceProperties>
                 <componentName>force:relatedListContainer</componentName>
                 <identifier>force_relatedListContainer</identifier>
             </componentInstance>
@@ -149,6 +169,24 @@
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>latField</name>
+                    <value>Location__Latitude__s</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>longField</name>
+                    <value>Location__Longitude__s</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>titleField</name>
+                    <value>Name</value>
+                </componentInstanceProperties>
+                <componentName>RecordMap</componentName>
+                <identifier>c_RecordMap1</identifier>
+            </componentInstance>
+        </itemInstances>
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
